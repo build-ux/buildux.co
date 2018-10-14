@@ -1,5 +1,13 @@
 // Colorbook
 // Brand
+export const colorBirch = '#f1ede7';
+
+export const colorCharcoal = '#242322';
+export const colorCharcoalLight = '#3d3c3a';
+
+export const colorElectric = '#0029ff';
+export const colorElectricLight = '#3354ff';
+export const colorElectricLighter = '#6880ff';
 
 // State
 

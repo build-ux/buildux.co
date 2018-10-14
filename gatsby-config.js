@@ -59,18 +59,19 @@ module.exports = {
     //   },
     // },
     // PWA
-    // {
-    //   resolve: `gatsby-plugin-manifest`,
-    //   options: {
-    //     name: 'Build UX',
-    //     short_name: 'Build UX',
-    //     start_url: '/',
-    //     background_color: '#ffffff',
-    //     theme_color: '#ffffff',
-    //     display: 'minimal-ui',
-    //     icon: 'src/assets/favicon/build-ux-icon.png',
-    //   },
-    // },
-    // `gatsby-plugin-offline`,
+    // TODO: Finalize manifest
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Build UX',
+        short_name: 'Build UX',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#ffffff',
+        display: 'minimal-ui',
+        icon: 'src/assets/favicon/build-ux-icon.png',
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 };

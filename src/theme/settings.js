@@ -1,15 +1,13 @@
 // Colorbook
-// Brand
-export const colorBirch = '#f1ede7';
+export const colorBirch093 = '#f1ede7';
 
-export const colorCharcoal = '#242322';
-export const colorCharcoalLight = '#3d3c3a';
+export const colorCharcoal014 = '#222224';
+export const colorCharcoal023 = '#3a3a3d';
 
-export const colorElectric = '#0029ff';
-export const colorElectricLight = '#3354ff';
-export const colorElectricLighter = '#6880ff';
-
-// State
+export const colorCobalt051 = '#304ad3';
+export const colorCobalt055 = '#465cd3';
+export const colorCobalt070 = '#6880ff';
+export const colorCobalt090 = '#ccd4ff';
 
 // Typography
 export const fontFamilySans = `sans-serif`;

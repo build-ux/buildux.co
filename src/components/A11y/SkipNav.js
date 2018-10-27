@@ -2,11 +2,22 @@ import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-import { spaceDefault, spaceHalf } from '../../theme/settings';
+import {
+  fontFamilySans,
+  weightBold,
+  spaceDefault,
+  spaceHalf,
+  colorCharcoal014,
+  colorCobalt070,
+} from '../../theme/settings';
 
 const SkipNav = ({ children, anchor }) => <StyledSkipNav href={`#${anchor}`}>{children}</StyledSkipNav>;
 
 const StyledSkipNav = styled.a`
+  font-family: ${fontFamilySans};
+  font-weight: ${weightBold};
+  font-size: 2rem;
+  line-height: 1.4;
   text-decoration: none;
 
   &:not(:focus) {
@@ -36,11 +47,11 @@ const StyledSkipNav = styled.a`
     position: fixed;
     top: ${spaceHalf};
     left: ${spaceHalf};
-    color: black;
-    background-color: #fff;
+    color: ${colorCharcoal014};
+    background-color: ${colorCobalt070};
     border: none;
     cursor: pointer;
-    outline: 0.2rem solid black;
+    outline: 0.2rem solid ${colorCobalt070};
     outline-offset: 0.2rem;
   }
 `;

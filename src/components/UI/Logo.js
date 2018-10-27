@@ -4,7 +4,14 @@ import styled from 'styled-components';
 import { colorBirch093 } from '../../theme/settings';
 
 const Logo = () => (
-  <StyledLogo width="124" height="179" viewBox="0 0 124 179" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <StyledLogo
+    width="124"
+    height="179"
+    viewBox="0 0 124 179"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-label="Build UX"
+  >
     <path
       fillRule="evenodd"
       clipRule="evenodd"

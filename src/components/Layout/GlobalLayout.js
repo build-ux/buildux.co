@@ -9,6 +9,8 @@ import {
   weightRegular,
   weightSemiBold,
   weightBold,
+  colorCharcoal014,
+  colorCharcoal023,
 } from '../../theme/settings';
 
 // Typography
@@ -148,6 +150,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: ${fontFamilySans};
     font-size: 1.6rem;
+    background-color: ${colorCharcoal014};
+    border-top: 3.2rem solid ${colorCharcoal023};
   }
 `;
 

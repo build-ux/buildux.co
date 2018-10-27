@@ -46,28 +46,27 @@ module.exports = {
     // SEO
     'gatsby-plugin-sitemap',
     // Analytics
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: '',
-    //     // Puts tracking script in the head instead of the body
-    //     head: false,
-    //     // Setting this parameter is optional
-    //     anonymize: true,
-    //     // Setting this parameter is also optional
-    //     respectDNT: true,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-121805801-2',
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+      },
+    },
     // PWA
-    // TODO: Finalize manifest
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Build UX',
         short_name: 'Build UX',
         start_url: '/',
-        background_color: '#ffffff',
-        theme_color: '#ffffff',
+        background_color: '#222224',
+        theme_color: '#3a3a3d',
         display: 'minimal-ui',
         icon: 'src/assets/favicon/build-ux-icon.png',
       },

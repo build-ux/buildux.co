@@ -10,7 +10,7 @@ export const colorCobalt070 = '#6880ff';
 export const colorCobalt090 = '#ccd4ff';
 
 // Typography
-export const fontFamilySans = `sans-serif`;
+export const fontFamilySans = `'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';`;
 export const weightLight = 300;
 export const weightRegular = 400;
 export const weightMedium = 500;

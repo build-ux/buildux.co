@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 
 import {
   fontFamilySans,
-  weightBold,
   spaceDefault,
   spaceHalf,
+  weightSemiBold,
   colorCharcoal014,
   colorCobalt070,
 } from '../../theme/settings';
@@ -15,7 +15,7 @@ const SkipNav = ({ children, anchor }) => <StyledSkipNav href={`#${anchor}`}>{ch
 
 const StyledSkipNav = styled.a`
   font-family: ${fontFamilySans};
-  font-weight: ${weightBold};
+  font-weight: ${weightSemiBold};
   font-size: 2rem;
   line-height: 1.4;
   text-decoration: none;

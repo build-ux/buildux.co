@@ -8,9 +8,9 @@ import {
   weightMedium,
   weightRegular,
   weightSemiBold,
-  weightBold,
   colorCharcoal014,
   colorCharcoal023,
+  colorBirch093,
 } from '../../theme/settings';
 
 // Typography
@@ -30,10 +30,6 @@ import ibmPlexSansSemiBoldTTF from '../../assets/fonts/ibm-plex-sans/IBMPlexSans
 import ibmPlexSansSemiBoldWOFF from '../../assets/fonts/ibm-plex-sans/IBMPlexSans-SemiBold.woff';
 import ibmPlexSansSemiBoldWOFF2 from '../../assets/fonts/ibm-plex-sans/IBMPlexSans-SemiBold.woff2';
 
-import ibmPlexSansBoldTTF from '../../assets/fonts/ibm-plex-sans/IBMPlexSans-Bold.ttf';
-import ibmPlexSansBoldWOFF from '../../assets/fonts/ibm-plex-sans/IBMPlexSans-Bold.woff';
-import ibmPlexSansBoldWOFF2 from '../../assets/fonts/ibm-plex-sans/IBMPlexSans-Bold.woff2';
-
 // Components
 import SkipNav from '../A11y/SkipNav';
 
@@ -41,6 +37,7 @@ const GlobalStyle = createGlobalStyle`
   /* Typography */
   @font-face {
     font-family: 'IBM Plex Sans';
+    font-display: swap;
     font-style: normal;
     font-weight: ${weightLight};
     src: url(${ibmPlexSansLightWOFF2}) format('woff2'),
@@ -50,6 +47,7 @@ const GlobalStyle = createGlobalStyle`
 
   @font-face {
     font-family: 'IBM Plex Sans';
+    font-display: swap;
     font-style: normal;
     font-weight: ${weightRegular};
     src: url(${ibmPlexSansRegularWOFF2}) format('woff2'),
@@ -59,6 +57,7 @@ const GlobalStyle = createGlobalStyle`
 
   @font-face {
     font-family: 'IBM Plex Sans';
+    font-display: swap;
     font-style: normal;
     font-weight: ${weightMedium};
     src: url(${ibmPlexSansMediumWOFF2}) format('woff2'),
@@ -68,20 +67,12 @@ const GlobalStyle = createGlobalStyle`
 
   @font-face {
     font-family: 'IBM Plex Sans';
+    font-display: swap;
     font-style: normal;
     font-weight: ${weightSemiBold};
     src: url(${ibmPlexSansSemiBoldWOFF2}) format('woff2'),
       url(${ibmPlexSansSemiBoldWOFF}) format('woff'),
       url(${ibmPlexSansSemiBoldTTF}) format('ttf');
-  }
-
-  @font-face {
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: ${weightBold};
-    src: url(${ibmPlexSansBoldWOFF2}) format('woff2'),
-      url(${ibmPlexSansBoldWOFF}) format('woff'),
-      url(${ibmPlexSansBoldTTF}) format('ttf');
   }
 
   /* Reset */
@@ -149,7 +140,10 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: ${fontFamilySans};
+    font-display: swap;
+    font-weight: ${weightRegular};
     font-size: 1.6rem;
+    color: ${colorBirch093};
     background-color: ${colorCharcoal014};
     border-top: 3.2rem solid ${colorCharcoal023};
   }

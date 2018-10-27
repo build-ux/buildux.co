@@ -15,7 +15,6 @@ export const weightLight = 300;
 export const weightRegular = 400;
 export const weightMedium = 500;
 export const weightSemiBold = 600;
-export const weightBold = 700;
 
 // Spacing
 export const spaceNone = '0 0 0 0';

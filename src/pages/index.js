@@ -51,7 +51,7 @@ const IndexPage = props => (
           <StyledTypeHeading as="h2">Stay updated</StyledTypeHeading>
           <StyledSocialLinks>
             <StyledSocialLink>
-              <StyledOutboundLink as={OutboundLink} href="https://www.youtube.com/channel/UCHTt4tr25_wdGiJQcKD8wzA">
+              <StyledOutboundLink as={OutboundLink} href="https://youtube.com/buildux">
                 <IconLink />
                 <StyledLinkText>YouTube</StyledLinkText>
               </StyledOutboundLink>

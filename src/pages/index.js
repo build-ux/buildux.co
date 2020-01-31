@@ -1,5 +1,4 @@
 import React from 'react';
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
@@ -51,27 +50,21 @@ const IndexPage = props => (
           <StyledTypeHeading as="h2">Stay updated</StyledTypeHeading>
           <StyledSocialLinks>
             <StyledSocialLink>
-              <StyledOutboundLink as={OutboundLink} href="https://youtube.com/buildux">
+              <StyledOutboundLink as="a" href="https://youtube.com/buildux" target="_blank">
                 <IconLink />
                 <StyledLinkText>YouTube</StyledLinkText>
               </StyledOutboundLink>
             </StyledSocialLink>
             <StyledSocialLink>
-              <StyledOutboundLink as={OutboundLink} href="https://github.com/build-ux">
+              <StyledOutboundLink as="a" href="https://github.com/build-ux" target="_blank">
                 <IconLink />
                 <StyledLinkText>GitHub</StyledLinkText>
               </StyledOutboundLink>
             </StyledSocialLink>
             <StyledSocialLink>
-              <StyledOutboundLink as={OutboundLink} href="https://twitter.com/build_ux">
+              <StyledOutboundLink as="a" href="https://twitter.com/build_ux" target="_blank">
                 <IconLink />
                 <StyledLinkText>Twitter</StyledLinkText>
-              </StyledOutboundLink>
-            </StyledSocialLink>
-            <StyledSocialLink>
-              <StyledOutboundLink as={OutboundLink} href="https://www.instagram.com/build_ux">
-                <IconLink />
-                <StyledLinkText>Instagram</StyledLinkText>
               </StyledOutboundLink>
             </StyledSocialLink>
           </StyledSocialLinks>
